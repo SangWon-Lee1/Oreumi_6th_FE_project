@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FE project</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="FEproject.css">
+    <link rel="stylesheet" href="FEproject(Mobile).css">
+</head>
+<body>
+    <header>
+        <section class="top-nav-container">
+            <img class="top-logo" src="img/Logo-fin.svg" alt="logo img">
+            <nav>
+                <ul class="pc-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </nav>
+            <article class="mobile-menu">
+                <input class="menu-open" type="button" onclick="listBtn('block')">
+                <nav class="menu-box">
+                    <input class="menu-close" type="button" onclick="listBtn('none')">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                    <button type="button">Download</button>
+                </nav>
+            </article>
+            <button type="button" class="nav-btn">Download</button>
+        </section>
+        <section class="content-container">
+            <section>
+                <h1>Lorem Ipsum is simply
+                    <br/>
+                    dummy text <br class="br"/> of the printing and</h1>
+                <p>Lorem Ipsum is simply dummy text <br class="br"/> of the printing and
+                    typesetting industry.
+                    <br/>
+                    Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown</p>
+                <button type="button" class="btn1">Download</button>
+            </section>
+            <img src="img/HoDu.png" class="header-img" alt="Hodu img">
+        </section>
+    </header>
+    <main>
+        <section class="frame1">
+            <img src="img/main.png" class="main-img" alt="img1">
+            <section>
+                <h2>
+                    Lorem Ipsum is simply<br />
+                    dummy text of the printing<br />
+                    and dummy text
+                </h2>
+                <p class="main-text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </section>
+        </section>
+        <section class="frame2">
+            <h1>dummy text of the printing and dummy</h1>
+            <p class="main-text2">Lorem Ipsum is simply <span class="emphasize">dummy text</span> of the printing and typesetting industry.<br />
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+        </section>
+        <section class="img-box1">
+            <img src="img/img1.png" alt="img1">
+            <img src="img/img2.png" alt="img2">
+            <img src="img/img3.png" alt="img3">
+        </section>
+        <section class="img-box2">
+            <img src="img/img4.png" alt="img4">
+            <img src="img/img5.png" alt="img5">
+            <img src="img/img6.png" alt="img6">
+        </section>
+        <section class="frame3">
+            <p>Continue exploring HODU</p>
+            <button type="button">Show more</button>
+        </section>
+        <hr class="line" />
+        <section class="frame4">
+            <h3 class="map-text1">Where you’ll be</h3>
+            <p class="map-text2">330, Cheomdan-ro, Jeju-si, Jeju-do, <br class="br"/> Republic of Korea</p>
+            <img src="img/map.png" class="map" alt="map">
+        </section>
+        <aside class="subscribe-box">
+            <section class="subscribe-text">
+                <h4 class="subscribe-title">Subscribe to our Blog post</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <br />
+                    Lorem Ipsum has been the industry's standard dummy text </p>
+            </section>
+            <form id="emailForm">
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Enter your e-mail address">
+                <button type="submit">Subscribe</button>
+                <img src="img/mail.svg" alt="mailImg">
+            </form>
+        </aside>
+        <img class="bottom-img-pc" src="img/main2.png" alt="img2">
+        <img class="bottom-img-mobile" src="img/bottom.png" alt="img2">
+    </main>
+    <footer id="footer">
+        <section class="frame5">
+            <h1>
+                <img class="footer-logo" src="img/Logo-fin.svg" alt="logo img">
+            </h1>
+            <nav class="footer-nav">
+                <a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"><img src="img/blog.png" alt="blog"></a>
+                <a href="https://instagram.com"><img src="img/instagram.png" alt="insta"></a>
+                <a href="https://facebook.com"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="https://youtube.com"><img src="img/youtube.png" alt="youtube"></a>
+            </nav>
+        </section>
+        <ul class="footer-inventory">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Terms of Use</a></li>
+        </ul>
+    </footer>
+    <div>
+        <button onclick="pageTop()" id="scrollBtn">
+            <img src="img/scroll_top_btn.png" alt="scrollBtnImg">
+        </button>
+    </div>
+    <div class="modal">
+        <section class="modalTop">
+            <img class="modal-img" src="img/modal.png" alt="catImg">
+            <h1>Thank You!</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+        </section>
+        <section class="modalBottom">
+            <button id="confirmSubmit">OK! I Love HODU</button>
+        </section>
+    </div>
+    <script src="FEproject.js"></script>
+</body>
+</html>
