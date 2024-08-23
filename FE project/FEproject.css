@@ -16,17 +16,14 @@
         font-size: 1.6rem;
         width: 100%;
         height: 100%;
-        max-width: 100%;
-        /*overflow-x: hidden;*/
-        /*1920*/
-        /*4241*/
     }
 
-    .frame1, .frame2, .content-container, .frame3, .line, .frame4,
-    .pc-menu, .top-nav-container, .nav-btn, .btn1, .header-img,
-    .frame5, .img-box1, .img-box2 {
-        display: flex;
+    /*pc화면에 필요없는 부분*/
+    .mobile-menu, .br, .footer-inventory {
+        display: none;
     }
+
+    /*header 시작*/
 
     header {
         width: 192rem;
@@ -34,7 +31,10 @@
         background: #F2E9D8;
     }
 
+    /*top 네비 시작*/
+
     .top-nav-container {
+        display: flex;
         position: fixed;
         z-index: 100;
         background-color: #F2E9D8;
@@ -51,6 +51,7 @@
     }
 
     .pc-menu {
+        display: flex;
         font-weight: 400;
         font-size: 1.6rem;
         line-height: 2rem;
@@ -62,6 +63,7 @@
     }
 
     .nav-btn {
+        display: flex;
         align-items: center;
         justify-content: center;
         color: #fff;
@@ -75,12 +77,14 @@
         border-radius: 4rem;
     }
 
-    .mobile-menu {
-        display: none;
-    }
+    /*top 네비 끝*/
 
     .header-text {
         flex-direction: column;
+    }
+
+    .content-container {
+        display: flex;
     }
 
     .content-container h1 {
@@ -102,6 +106,7 @@
     }
 
     .btn1 {
+        display: flex;
         color: #fff;
         align-items: center;
         justify-content: center;
@@ -116,9 +121,16 @@
     }
 
     .header-img {
+        display: flex;
         margin: 13.4rem 32rem 0 0;
         width: 41.5rem;
         height: 76.6rem;
+    }
+
+    /*header 끝 // main 시작*/
+
+    .frame1 {
+        display: flex;
     }
 
     .main-img {
@@ -149,6 +161,7 @@
     }
 
     .frame2 {
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
@@ -179,6 +192,7 @@
     }
 
     .img-box1, .img-box2 {
+        display: flex;
         flex-direction: row;
         gap: 7.2rem;
         width: 128rem;
@@ -194,6 +208,7 @@
     }
 
     .frame3 {
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -226,6 +241,7 @@
     }
 
     .line {
+        display: flex;
         width: 127.8rem;
         height: 0.1rem;
         margin: 0 32rem;
@@ -233,6 +249,7 @@
     }
 
     .frame4 {
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
@@ -263,6 +280,18 @@
         background: #E8E8E8;
         border-radius: 1.2rem;
     }
+
+    .bottom-img {
+        object-fit: cover;
+        /*display: none;*/
+        margin-top: 10.1rem;
+        width: 192rem;
+        height: 34rem;
+        z-index: 1;
+        background: linear-gradient(0deg, rgba(242, 233, 216, 0.6), rgba(242, 233, 216, 0.6))
+    }
+
+    /*main 끝 // subscribe-box 시작*/
 
     .subscribe-box {
         background-color: #263140;
@@ -304,13 +333,13 @@
     }
 
     #emailForm {
+        display: flex;
         position: relative;
         width: 53rem;
         height: 6rem;
         margin-left: 69.2rem;
         margin-right: 5.8rem;
         top: 7rem;
-        display: flex;
     }
 
     #emailForm input {
@@ -343,9 +372,9 @@
     }
 
     #emailForm input::placeholder {
+        display: flex;
         position: absolute;
         line-height: 2rem;
-        display: flex;
         align-items: center;
         color: #767676;
         width: 18.4rem;
@@ -354,15 +383,7 @@
         left: 6.8rem;
     }
 
-    .bottom-img {
-        object-fit: cover;
-        /*display: none;*/
-        margin-top: 10.1rem;
-        width: 192rem;
-        height: 34rem;
-        z-index: 1;
-        background: linear-gradient(0deg, rgba(242, 233, 216, 0.6), rgba(242, 233, 216, 0.6))
-    }
+    /*subscribe-box 끝 // footer 시작*/
 
     footer {
         width: 192rem;
@@ -370,8 +391,8 @@
         bottom: 0;
     }
 
-    .footer-inventory {
-        display: none;
+    .frame5 {
+        display: flex;
     }
 
     .footer-logo {
@@ -381,10 +402,10 @@
     }
 
     .footer-nav {
+        display: flex;
         margin: 5.8rem 32rem 6rem 0;
         width: 22.8rem;
         height: 4.2rem;
-        display: flex;
         gap: 2rem;
     }
 
@@ -396,9 +417,7 @@
         border-radius: 10rem;
     }
 
-    .br {
-        display: none;
-    }
+    /*footer 끝 // modal창 시작*/
 
     .modal {
         background-image: url("img/modal main.png");
@@ -456,6 +475,8 @@
         gap: 1rem;
         border-radius: 4rem;
     }
+
+    /*modal창 끝 // 스크롤버튼 시작*/
 
     #scrollBtn {
         display: none;
