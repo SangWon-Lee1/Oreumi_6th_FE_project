@@ -16,14 +16,14 @@
         position: relative;
         width: 100%;
         height: 100%;
-        /*390*/
-        /*4865*/
     }
 
-    .subscribe-box,
-    .bottom-img-mobile {
-        display: flex;
+    /*모바일화면에 필요없는 부분*/
+    .pc-menu, .nav-btn {
+        display: none;
     }
+
+    /*header 시작*/
 
     header {
         width: 39rem;
@@ -31,6 +31,8 @@
         background: #F2E9D8;
         display: flex;
     }
+
+    /*top 네비 시작*/
 
     .top-nav-container {
         position: fixed;
@@ -104,11 +106,7 @@
         color: #fff;
     }
 
-
-    .pc-menu,
-    .nav-btn {
-        display: none;
-    }
+    /*top 네비 끝*/
 
     .content-container {
         width: 25.1rem;
@@ -159,6 +157,8 @@
         height: 36rem;
         margin: 0 9.5rem 0 9.8rem;
     }
+
+    /*header 끝 // main 시작*/
 
     .main-img {
         width: 32.6rem;
@@ -295,7 +295,19 @@
         border-radius: 1.2rem;
     }
 
+    .bottom-img {
+        display: flex;
+        margin-top: 28rem;
+        width: 39rem;
+        height: 24rem;
+        background: linear-gradient(0deg, rgba(242, 233, 216, 0.6), rgba(242, 233, 216, 0.6));
+        z-index: 1;
+    }
+
+    /*main 끝 // subscribe-box 시작*/
+
     .subscribe-box {
+        display: flex;
         position: absolute;
         margin: 0 3.2rem 0;
         width: 32.6rem;
@@ -378,13 +390,7 @@
         padding: 1.1rem 2.4rem;
     }
 
-    .bottom-img {
-        margin-top: 28rem;
-        width: 39rem;
-        height: 24rem;
-        background: linear-gradient(0deg, rgba(242, 233, 216, 0.6), rgba(242, 233, 216, 0.6));
-        z-index: 1;
-    }
+    /*subscribe-box 끝 // footer 시작*/
 
     footer {
         display: flex;
@@ -428,6 +434,8 @@
         font-weight: 400;
         color: #767676;
     }
+
+    /*footer 끝 // modal창 시작*/
 
     .modal {
         width: 30rem;
@@ -499,6 +507,8 @@
         font-size: 1.4rem;
         line-height: 1.8rem;
     }
+
+    /*modal끝*/
 
     #scrollBtn {
         display: none;
