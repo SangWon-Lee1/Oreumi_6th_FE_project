@@ -246,7 +246,7 @@
 
     .frame3 button {
         margin: 2.8rem 3.75rem 0;
-        padding: 1.5rem 2.9rem;
+        /*padding: 1.5rem 2.9rem;*/
         gap: 1rem;
         width: 14.3rem;
         height: 5rem;
@@ -257,7 +257,7 @@
         font-size: 1.6rem;
         line-height: 2rem;
         color: #fff;
-        letter-spacing: -0.01em;
+        letter-spacing: -0.02em;
     }
 
     .line {
@@ -471,6 +471,7 @@
         font-size: 2.4rem;
         line-height: 3rem;
         color: #D97652;
+        letter-spacing: -0.02em;
     }
 
     .modal p {
@@ -491,7 +492,7 @@
         margin: 2.8rem 7.3rem 3rem 6.9rem;
         width: 15.8rem;
         height: 4rem;
-        padding: 1.1rem 2.4rem;
+        /*padding: 1.1rem 2.4rem;*/
         background: #D97652;
         border-radius: 4rem;
 
@@ -499,7 +500,7 @@
         font-weight: 700;
         font-size: 1.4rem;
         line-height: 1.8rem;
-        letter-spacing: -0.025em;
+        /*letter-spacing: -0.025em;*/
     }
 
     #scrollBtn {
