@@ -37,7 +37,7 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 ### 1. pc화면 // 모바일 화면 구현
 
 <div align="center" style="display: flex; justify-content: space-around">
-<img src="/readmeImg/pc.png" alt="mobile" width="200" height="400">
+<img src="/readmeImg/pc.png" alt="pc" width="200" height="400">
 <img src="/readmeImg/mobile.png" alt="mobile" width="100" height="400">
 </div>
 <br />
