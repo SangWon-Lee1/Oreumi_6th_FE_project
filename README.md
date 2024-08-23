@@ -16,20 +16,20 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 
 ### ['HODU'page살펴보기](https://sangwon-lee1.github.io/Oreumi_6th_FE_project/FE%20project/FEproject.html)
 <div align="center">
-<img src="readmeImg/hodu.png" alt="hodu" width="378" height="378">
+<img src="/readmeImg/hodu.png" alt="hodu" width="378" height="378">
 </div>
 
 ***
 ## 요구사항 명세
 
 <div align="center">
-<img src="readmeImg/SRS.png" alt="SRS">
+<img src="/readmeImg/SRS.png" alt="SRS">
 </div>
 
 ***
 ### 사용한 스택
 <div align="center">
-<img src="readmeImg/stack.png" alt="stack" width="600x" height="300">
+<img src="/readmeImg/stack.png" alt="stack" width="600x" height="300">
 </div>
 
 ***
@@ -37,8 +37,8 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 ### 1. pc화면 // 모바일 화면 구현
 
 <div align="center" style="display: flex; justify-content: space-around">
-<img src="readmeImg/pc.png" alt="mobile" width="200" height="400">
-<img src="readmeImg/mobile.png" alt="mobile" width="100" height="400">
+<img src="/readmeImg/pc.png" alt="mobile" width="200" height="400">
+<img src="/readmeImg/mobile.png" alt="mobile" width="100" height="400">
 </div>
 <br />
 <br />
@@ -46,7 +46,7 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 ### 2. 스크롤시 헤더 고정
 
 <div align="center">
-<img src="readmeImg/header.png" alt="header" width="686" height="329">
+<img src="/readmeImg/header.png" alt="header" width="686" height="329">
 </div>
 <br />
 <br />
@@ -58,9 +58,9 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 4. 버튼 클릭시 부드럽게 최상단으로 올라감.
 
 <div align="center" style="display: flex; justify-content: space-between">
-<img src="readmeImg/scrollbtn.png" alt="btn" width="253" height="289">
-<img src="readmeImg/scrollbtn(footer).png" alt="" width="253" height="289">
-<img src="readmeImg/hover.png" alt="hover" width="253" height="289">
+<img src="/readmeImg/scrollbtn.png" alt="btn" width="253" height="289">
+<img src="/readmeImg/scrollbtn(footer).png" alt="" width="253" height="289">
+<img src="/readmeImg/hover.png" alt="hover" width="253" height="289">
 </div>
 <br />
 <br />
@@ -72,9 +72,9 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 4. 문제 없을 시 모달창 화면 뜸.(모달창의 버튼을 클릭하면 form 제출)
 
 <div align="center">
-<img src="readmeImg/email(none).png" alt="none" width="600">
-<img src="readmeImg/email(case1).png" alt="none" width="600">
-<img src="readmeImg/email(case2).png" alt="none" width="600">
+<img src="/readmeImg/email(none).png" alt="none" width="600">
+<img src="/readmeImg/email(case1).png" alt="none" width="600">
+<img src="/readmeImg/email(case2).png" alt="none" width="600">
 </div>
 
 ***
