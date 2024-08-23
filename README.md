@@ -59,7 +59,7 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 
 <div align="center" style="display: flex; justify-content: space-between">
 <img src="/readmeImg/scrollbtn.png" alt="btn" width="253" height="289">
-<img src="/readmeImg/scrollbtn(footer).png" alt="" width="253" height="289">
+<img src="/readmeImg/scrollbtn(footer).png" alt="scroll" width="253" height="289">
 <img src="/readmeImg/hover.png" alt="hover" width="253" height="289">
 </div>
 <br />
@@ -72,9 +72,9 @@ figma링크와 요구사항을 참고하여 HODU를 소개하는 페이지 만�
 4. 문제 없을 시 모달창 화면 뜸.(모달창의 버튼을 클릭하면 form 제출)
 
 <div align="center">
-<img src="/readmeImg/email(none).png" alt="none" width="600">
-<img src="/readmeImg/email(case1).png" alt="none" width="600">
-<img src="/readmeImg/email(case2).png" alt="none" width="600">
+<img src="/readmeImg/email(none).png" alt="alert1" width="600">
+<img src="/readmeImg/email(case1).png" alt="alert2" width="600">
+<img src="/readmeImg/email(case2).png" alt="modal" width="600">
 </div>
 
 ***
