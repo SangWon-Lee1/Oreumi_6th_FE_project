@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     @font-face {
         font-family: 'Pretendard-Regular';
         src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -15,7 +15,10 @@
         position: relative;
         font-size: 1.6rem;
         width: 100%;
+        max-width: 192rem;
         height: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     /*pc화면에 필요없는 부분*/
@@ -26,7 +29,8 @@
     /*header 시작*/
 
     header {
-        width: 192rem;
+        width: 100%;
+        max-width: 192rem;
         height: 90.2rem;
         background: #F2E9D8;
     }
@@ -41,7 +45,6 @@
         width: 192rem;
         height: 10.2rem;
         top: 0;
-        justify-content: space-between;
     }
 
     .top-logo {
@@ -52,10 +55,13 @@
 
     .pc-menu {
         display: flex;
+    }
+
+    .topMenu {
+        display: flex;
         font-weight: 400;
         font-size: 1.6rem;
         line-height: 2rem;
-        flex-direction: row;
         gap: 3rem;
         width: 20.5rem;
         height: 2rem;
@@ -63,7 +69,6 @@
     }
 
     .nav-btn {
-        display: flex;
         align-items: center;
         justify-content: center;
         color: #fff;
@@ -128,6 +133,11 @@
     }
 
     /*header 끝 // main 시작*/
+
+    main {
+        width: 100%;
+        max-width: 192rem;
+    }
 
     .frame1 {
         display: flex;
@@ -285,7 +295,8 @@
         object-fit: cover;
         /*display: none;*/
         margin-top: 10.1rem;
-        width: 192rem;
+        width: 100%;
+        max-width: 192rem;
         height: 34rem;
         z-index: 1;
         background: linear-gradient(0deg, rgba(242, 233, 216, 0.6), rgba(242, 233, 216, 0.6))
@@ -386,7 +397,8 @@
     /*subscribe-box 끝 // footer 시작*/
 
     footer {
-        width: 192rem;
+        width: 100%;
+        max-width: 192rem;
         height: 16rem;
         bottom: 0;
     }
