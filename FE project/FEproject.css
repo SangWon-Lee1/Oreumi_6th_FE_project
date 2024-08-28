@@ -293,7 +293,6 @@
 
     .bottom-img {
         object-fit: cover;
-        /*display: none;*/
         margin-top: 10.1rem;
         width: 100%;
         max-width: 192rem;
@@ -356,8 +355,7 @@
     #emailForm input {
         width: 100%;
         border-radius: 6rem;
-        background: #FFF;
-        text-align: center;
+        padding-left: 6.8rem;
     }
 
     #emailForm button {
